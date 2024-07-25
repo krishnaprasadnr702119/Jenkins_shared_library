@@ -9,7 +9,7 @@ pipeline{
     parameters {
         choice(name: 'action', choices: 'create\ndelete', description: 'Select create or destroy.')
         
-        string(name: 'DOCKER_HUB_USERNAME', defaultValue: 'sevenajay', description: 'Docker Hub Username')
+        string(name: 'DOCKER_HUB_USERNAME', defaultValue: 'krishnaprasadnr', description: 'Docker Hub Username')
         string(name: 'IMAGE_NAME', defaultValue: 'youtube', description: 'Docker Image Name')
     }
     tools{
